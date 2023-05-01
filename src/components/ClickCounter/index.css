@@ -1,0 +1,60 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  min-height: 100vh;
+  background-color: #f1f5f8;
+  font-family: 'Roboto';
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  color: #2d3a35;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.count {
+  color: #c20a72;
+}
+
+.caption {
+  color: #2d3a35;
+  font-size: 16px;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #007bff;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+@media all and (min-width: 768px) {
+  .title {
+    font-size: 55px;
+  }
+
+  .caption {
+    font-size: 22px;
+  }
+}
